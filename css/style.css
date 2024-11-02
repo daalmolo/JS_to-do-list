@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(135deg, #153677, #4e085f);
+  height: 100vh;
+}
+
+.card {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+.card__header {
+  padding-left: 20px;
+  color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card__header > img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.card__entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.entry__input {
+  margin-left: 20px;
+  height: 35px;
+  width: 300px;
+  background: #edeef0;
+}
+
+.entry__button {
+  background: orangered;
+  height: 40px;
+  border-radius: 30px;
+  width: 90px;
+  color: #fff;
+  font-weight: 700;
+}
